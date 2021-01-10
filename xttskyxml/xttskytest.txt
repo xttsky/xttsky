@@ -1,9 +1,2 @@
 {"paneurl": [
-{"panelhost": "http://istanbul1453.biz:8080", "panelmac": "00:1A:79:1E:CF:78"},
-{"panelhost": "http://iptvtr1.net:8080", "panelmac": "00:1A:79:28:7E:47"},
-{"panelhost": "http://elit64.com:6464", "panelmac": "00:1A:79:00:4E:5B"},
-{"panelhost": "http://cartiptv.com:8080", "panelmac": "00:1A:79:00:08:D9"},
-{"panelhost": "http://vip.bmbtv.me:15000", "panelmac": "00:1A:79:6F:65:E4"},
-{"panelhost": "http://ddiptv.ml:80", "panelmac": "00:1A:79:00:D3:EA"},
-{"panelhost": "http://tivixs.com:80", "panelmac": "00:1A:79:1A:02:AD"}
 ]}
