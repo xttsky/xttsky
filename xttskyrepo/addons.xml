@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.xttsky" name="XTTSKY" version="21.01.11.3" provider-name="XTTSKY">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.4.3"/>
+        <import addon="script.module.requests-cache" version="0.0.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.8.2"/>
+        <import addon="plugin.video.youtube" version="6.8.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="xttsky.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary>XTTSKY</summary>
+		<description>Turkce kaynakli modul</description>
+		<disclaimer>XTTSKY telif hakki ile korunan hicbir medyayi yayinlamaz.Link vermez. Tum yayinlar muhtelif web sitelerinden alinmaktadir.</disclaimer>
+		<platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="XTTSKY.repo" name="XTTSKY Eklenti Deposu" version="20.01.12.1" provider-name="XTTSKY">
+
+    <extension point="xbmc.addon.repository" name="XTTSKY Add-on Repository">
+
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/xttsky/xttsky/master/xttskyrepo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/xttsky/xttsky/master/xttskyrepo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/xttsky/xttsky/master/xttskyrepo/</datadir>
+			<hashes>false</hashes>
+        </dir>
+
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="tr">XTTSKY Kurulum ve Guncelleme Deposu</summary>
+        <summary lang="en">XTTSKY installation and Updates Store</summary>
+        <description lang="tr">Turkce</description>
+        <description lang="en">Turkish</description>
+        <disclaimer lang="tr">XTTSKY telif hakki ile korunan hicbir medyayi yayinlamaz.Link vermez.Tum yayinlar muhtelif web sitelerinden alinmaktadir.</disclaimer>
+        <platform>all</platform>
+    </extension>
+
+</addon>
+</addons>
