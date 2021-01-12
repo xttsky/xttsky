@@ -23,7 +23,7 @@
     </extension>
 </addon>
 
-<addon id="XTTSKY.repo" name="XTTSKY Eklenti Deposu" version="20.01.12.1" provider-name="XTTSKY">
+<addon id="XTTSKY.repo" name="XTTSKY Eklenti Deposu" version="20.01.12.2" provider-name="XTTSKY">
 
     <extension point="xbmc.addon.repository" name="XTTSKY Add-on Repository">
 
@@ -43,6 +43,10 @@
         <description lang="en">Turkish</description>
         <disclaimer lang="tr">XTTSKY telif hakki ile korunan hicbir medyayi yayinlamaz.Link vermez.Tum yayinlar muhtelif web sitelerinden alinmaktadir.</disclaimer>
         <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
     </extension>
 
 </addon>
