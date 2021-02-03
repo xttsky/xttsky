@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.xttsky" name="XTTSKY" version="21.02.03.1" provider-name="XTTSKY">
+<addon id="plugin.video.xttsky" name="XTTSKY" version="21.02.04.1" provider-name="XTTSKY">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.4.3"/>
